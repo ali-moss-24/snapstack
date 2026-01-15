@@ -15,3 +15,16 @@ To match your game’s vibe:
 🟡 #e9c46a (yellow)
 
 These are accessible, high‑contrast, and look great together.
+
+How to Play
+You start with an empty hand and one card on the discard pile
+
+Click Draw Card to add a card to your hand
+
+Click a card in your hand to play it
+
+You can only play a card if it matches the colour or number of the top discard card
+
+If the move is invalid, the game will notify you
+
+Continue drawing and playing until your hand is empty
