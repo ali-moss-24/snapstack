@@ -1,0 +1,22 @@
+#game {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.red { background: #e63946; }
+.blue { background: #457b9d; }
+.green { background: #2a9d8f; }
+.yellow { background: #e9c46a; color: black; }

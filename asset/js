@@ -1,0 +1,76 @@
+const colors = ["red", "blue", "green", "yellow"];
+let deck = [];
+let playerHand = [];
+let discardPile = [];
+
+// Create deck
+function createDeck() {
+  colors.forEach(color => {
+    for (let i = 0; i <= 9; i++) {
+      deck.push({ color, number: i });
+    }
+  });
+}
+
+// Shuffle deck
+function shuffle(array) {
+  array.sort(() => Math.random() - 0.5);
+}
+
+// Draw a card
+function drawCard() {
+  const card = deck.pop();
+  playerHand.push(card);
+  renderHand();
+}
+
+// Render player hand
+function renderHand() {
+  const handDiv = document.getElementById("cards");
+  handDiv.innerHTML = "";
+
+  playerHand.forEach((card, index) => {
+    const cardDiv = document.createElement("div");
+    cardDiv.classList.add("card", card.color);
+    cardDiv.textContent = card.number;
+
+    cardDiv.addEventListener("click", () => playCard(index));
+
+    handDiv.appendChild(cardDiv);
+  });
+}
+
+// Play a card
+function playCard(index) {
+  const card = playerHand[index];
+  const topCard = discardPile[discardPile.length - 1];
+
+  if (card.color === topCard.color || card.number === topCard.number) {
+    discardPile.push(card);
+    playerHand.splice(index, 1);
+    updateTopCard();
+    renderHand();
+  } else {
+    alert("You must match the colour or number!");
+  }
+}
+
+// Update discard pile display
+function updateTopCard() {
+  const top = discardPile[discardPile.length - 1];
+  const topDiv = document.getElementById("top-card");
+
+  topDiv.className = `card ${top.color}`;
+  topDiv.textContent = top.number;
+}
+
+// Initialise game
+createDeck();
+shuffle(deck);
+
+// Start with one card on discard pile
+discardPile.push(deck.pop());
+updateTopCard();
+
+// Draw button
+document.getElementById("draw-btn").addEventListener("click", drawCard);
