@@ -83,3 +83,27 @@ Card Styling
     margin: 10px;
     background: #ccc; 
 }
+
+/* Colour classes */
+.red { background: #e63946; }
+.blue { background:#457b9d ; }
+.green { background: #2a9d8f; }
+.yellow { background: #e9c46a }
+
+/* ---------------------
+Draw button
+-------------------------*/
+
+.draw-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.draw-button {
+    background: #1d3557;
+}
