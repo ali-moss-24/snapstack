@@ -6,12 +6,12 @@ This project was created as part of the Code Institute’s Front-End Development
 
 ### Features 
 
-- Draw Card
-- Play card
-- Matching rules
-- Discard pile
+- Dynamic card deck generated with Javascript
+- Shuffle, draw and play mechanics
+- Color and number matching rules
+- Interactive UI with clickable cards
 - Responsive layout
-- Future features (optional)
+- Clear visual feedback for valid and invalid moves
 
 ### Technologies used
 - HTML, CSS , Javascript
@@ -20,7 +20,7 @@ This project was created as part of the Code Institute’s Front-End Development
 
 - You start with an empty hand and one card on the discard pile
 
-- Click Draw Card to add a card to your hand
+- Click **Draw Card** to add a card to your hand
 
 - Click a card in your hand to play it
 
