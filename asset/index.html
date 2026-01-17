@@ -1,15 +1,47 @@
-<div id="game">
-  <h1>Mini UNO</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnapStack</title>
 
-  <div id="discard-pile">
-    <h2>Discard Pile</h2>
-    <div id="top-card"></div>
-  </div>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-  <div id="player-hand">
-    <h2>Your Hand</h2>
-    <div id="cards"></div>
-  </div>
+  <nav class="navbar">
+    <h1 class="logo">SnapStack</h1>
+    <ul class="nav-links"></ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#game">Play</a></li>
+        <li><a href="#rules">Rules</a></li>
+  </ul>
+</nav>
 
-  <button id="draw-btn">Draw Card</button>
-</div>
+<!-- Main Game Section -->
+<main id="game" class="game-container">
+
+    <section class="discard-section">
+      <h2>Discard Pile</h2>
+      <div id="top-card" class="card-slot"></div>
+    </section>
+
+<section class="hand-section">
+      <h2>Your Hand</h2>
+      <div id="player-hand" class="hand-area"></div>
+    </section>
+
+    <button id="draw-btn" class="draw-button">Draw Card</button>
+
+</main>
+  
+<!-- Rules Section -->
+ <section id="rules" class="rules-container">
+      <h2>How to Play</h2>
+      <p>Match the color or number of the top discard card. Draw a card if you cannot play. </p>
+    </section>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
