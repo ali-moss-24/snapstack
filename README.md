@@ -14,7 +14,10 @@ This project was created as part of the Code Institute’s Front-End Development
 - Clear visual feedback for valid and invalid moves
 
 ### Technologies used
-- HTML, CSS , Javascript
+
+- HTML
+- CSS
+- Javascript
 
 ### How to play
 
