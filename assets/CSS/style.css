@@ -1,6 +1,6 @@
 /* ----------------------------------
 Global Styles
-----------------------------------------*/
+---------------------------------------- */
 
 body {
     margin: 0;
@@ -16,9 +16,9 @@ h1,h2 {
 
 }
 
-/* ----------------------------------------
+/* ----------------------------------
 Navigation Bar
--------------------------------------*/
+------------------------------------- */
 
 .navbar {
     display: flex;
@@ -68,7 +68,7 @@ Game Layout
 
 /* -------------------------------------
 Card Styling
----------------------------------------*/
+--------------------------------------- */
 
 .card-slot,
 .card {
@@ -92,7 +92,7 @@ Card Styling
 
 /* ---------------------
 Draw button
--------------------------*/
+------------------------- */
 
 .draw-button {
     padding: 12px 25px;
@@ -107,3 +107,34 @@ Draw button
 .draw-button {
     background: #1d3557;
 }
+
+/* --------------------------------
+Rules Section
+-------------------------------- */
+
+.rules-container {
+    background: white;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ----------------------------
+Responsive Layout
+------------------------------ */
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px
+    }
+}
+
+    .card-slot,
+    .card {
+        width: 70px;
+        height: 100px;
+        font-size: 1.5rem;
+    }
