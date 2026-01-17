@@ -49,3 +49,37 @@ Navigation Bar
 .nav-links a:hover {
     text-dectoration: underline;
 }
+
+/* -----------------------------------------
+Game Layout
+------------------------------------------- */
+
+.game-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.discard-section,
+.hand-section {
+    margin-bottom: 30px
+}
+
+/* -------------------------------------
+Card Styling
+---------------------------------------*/
+
+.card-slot,
+.card {
+    width: 99px;
+    height: 130px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    margin: 10px;
+    background: #ccc; 
+}
