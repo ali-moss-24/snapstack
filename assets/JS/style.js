@@ -56,6 +56,41 @@ function renderHand() {
   enableCardClicks();
 }
 
+//ENABLE CLICKING ON CARDS
+function enableCardClicks() {
+    const cards = document.querySelectorAll("#player-hand .card");
+
+    cards.forEach(card => {
+        card.addEventListener("click", () => {
+            const index = card.getAttribute("data-index");
+            playCard(index);
+        })
+    })
+}
+
+//PLAY A CARD
+function playCard(index) {
+    const selected = playerHand[index];
+    const top = discardPlie[discardPile.length - 1];
+
+    const valid =
+        selected.color === top.color ||
+        selected.number === top.number;
+
+    if(!valid); {
+        alert("Invalid move!");
+        return;
+    }
+
+    discardPile.push(selected);
+    playerHand.splice(index, 1);
+
+    updateTopCard();
+    renderHand();
+
+}
+
+
 // Draw card button
 drawBtn.addEventListener("click", () => {
     playerHandArea.innerHTML += "<div class='card red'>5</div>";
