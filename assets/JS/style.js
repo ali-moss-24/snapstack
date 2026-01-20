@@ -34,8 +34,27 @@ function shuffleDeck(deck) {
     }
 }
 
+//RENDER TOP CARD
+function updateTopCard() {
+    const top = discardPile[discardPile.length -1];
+    topCardSlot.innerHTML = `<div class="card ${top.color}">${top.number}</div>`;
+}
 
-// EVENT LISTENER
+//RENDER PLAYER HAND
+function renderHand() {
+    playerHandArea.innerHTML = "";
+
+    playerHand.forEach((card, index) => {
+        const cardHTML = `
+            <div class"card ${card.color}" data-index="${index}">
+                ${card.number}
+            </div>
+         `;
+         playerHandArea.innerHTML += cardHTML;
+  })
+
+  enableCardClicks();
+}
 
 // Draw card button
 drawBtn.addEventListener("click", () => {
