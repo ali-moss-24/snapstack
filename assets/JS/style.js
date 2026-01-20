@@ -28,9 +28,9 @@ function createDeck() {
 
 //SHUFFLE DECK
 function shuffleDeck(deck) {
-    for (let i = deck.length -1; i > 0; i--){
+    for (let i = deck.length -1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [deck[i], deck[j]] = [deck[j]], deck[i];
+        [deck[i], deck[j]] = [deck[j], deck[i]];
     }
 }
 
@@ -46,7 +46,7 @@ function renderHand() {
 
     playerHand.forEach((card, index) => {
         const cardHTML = `
-            <div class"card ${card.color}" data-index="${index}">
+            <div class="card ${card.color}" data-index="${index}">
                 ${card.number}
             </div>
          `;
@@ -71,13 +71,13 @@ function enableCardClicks() {
 //PLAY A CARD
 function playCard(index) {
     const selected = playerHand[index];
-    const top = discardPlie[discardPile.length - 1];
+    const top = discardPile[discardPile.length - 1];
 
     const valid =
         selected.color === top.color ||
         selected.number === top.number;
 
-    if(!valid); {
+    if(!valid) {
         alert("Invalid move!");
         return;
     }
@@ -91,35 +91,31 @@ function playCard(index) {
 }
 
 
-// Draw card button
+// Draw A REAL CARD
 drawBtn.addEventListener("click", () => {
-    playerHandArea.innerHTML += "<div class='card red'>5</div>";
-    console.log("Draw button clicked");
-    // drawCard(); //you'll add this function soon
+    if (deck.length === 0) {
+        alert("Deck is empty");
+        return;
+    }
+
+    const drawnCard = deck.pop();
+    playerHand.push(drawnCard);
+
+    renderHand();
+
 });
-
-// PLACEHOLDER
-
-function renderHand() {
-    console.log("Rendering hand:", playerHand);
-    //Later: update DOM with card elements
-}
-
-function updateTopCard() {
-    console.log("Updating top card:", discardPile[discardPile.length - 1]);
-    //Later: update DOM with the top discard card
-}
 
 // INITIAL SETUP
 
 function initGame() {
     console.log("Game starting.....");
 
-    // Later: create deck, shuffle, start discard pile
-    // createDeck ();
-    // shuffleDeck ();
-    // discardPile.push(deck.pop());
-    //updateTopCard();
+    deck = createDeck();
+    shuffleDeck(deck);
+
+    // Start discard pile with one card
+    discardPile.push(deck.pop());
+    updateTopCard();
 }
 
 initGame();
