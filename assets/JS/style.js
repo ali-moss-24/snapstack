@@ -8,11 +8,11 @@ const playerHandArea = document.getElementById("player-hand");
 const topCardSlot = document.getElementById("top-card");
 
 //GAME STATE
-
 let deck = [];
 let playerHand = [];
 let discardPile = [];
 
+//CREATE DECK
 function createDeck() {
     const colors = ["red", "blue", "green", "yellow"];
     const newDeck = [];
@@ -24,6 +24,14 @@ function createDeck() {
     })
 
     return newDeck;
+}
+
+//SHUFFLE DECK
+function shuffleDeck(deck) {
+    for (let i = deck.length -1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        [deck[i], deck[j]] = [deck[j]], deck[i];
+    }
 }
 
 
