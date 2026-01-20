@@ -21,17 +21,17 @@ This project was created as part of the Code Institute’s Front-End Development
 
 ### How to play
 
-- You start with an empty hand and one card on the discard pile
+- You begin with an empty hand and one card on the discard pile.
 
-- Click **Draw Card** to add a card to your hand
+- Click **Draw Card** to add a card to your hand.
 
-- Click a card in your hand to play it
+- Click a card in your hand to play it.
 
-- You can only play a card if it matches the colour or number of the top discard card
+- You can only play a card if it matches the colour or number of the top discard card.
 
-- If the move is invalid, the game will notify you
+- Invalid moves triggers a notification.
 
-- Continue drawing and playing until your hand is empty
+- Continue drawing and playing until your hand is empty - then you win.
 
 
 
