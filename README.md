@@ -4,7 +4,9 @@ SnapStack is a fast‑paced, colour‑matching card game built with HTML, CSS, a
 
 This project was created as part of the Code Institute’s Front-End Development curriculum.
 
-### Features 
+---
+
+### 🎮 Features 
 
 - Dynamic card deck generated with Javascript
 - Shuffle, draw and play mechanics
@@ -13,13 +15,17 @@ This project was created as part of the Code Institute’s Front-End Development
 - Responsive layout
 - Clear visual feedback for valid and invalid moves
 
-### Technologies used
+---
+
+### 🛠️ Technologies used
 
 - HTML
 - CSS
 - Javascript
 
-### How to play
+---
+
+### 🧩 How to play
 
 - You begin with an empty hand and one card on the discard pile.
 
@@ -33,33 +39,65 @@ This project was created as part of the Code Institute’s Front-End Development
 
 - Continue drawing and playing until your hand is empty - then you win.
 
+---
+
+### 🧪 Testing
+
+**Manual Testing**
 
 
-### Deployment
+**Bugs & Fixes**
 
-- Link to Github page
 
+**Validator Testing**
+
+- HTML validated with W£C
+- CSS validated with Jigsaw
+- JavaScript checked with linter
+
+---
+
+### 🎨 UX & Design
+
+**Color Palette**
+
+To create a bright, accessible game enviroment
+
+- 🔴 #e63946 (red)
+- 🔵 #457b9d (blue)
+- 🟢 #2a9d8f (green)
+- 🟡 #e9c46a (yellow)
+
+These colors offer strong contrast and clear visual grouping.
+
+**Wireframe**
+
+
+**Design Rationale**
+
+- Large buttons and clear spacing improve accessibility.
+- Color-coded cards make gameplay intitive.
+- Layout proritises the discard pile and player hand for clarity.
+- Navigation is simple: Home → Play → Rules.
+
+---
+
+### 🚀 Deployment
+
+**Live Link:**
+
+**Repository:**
+
+Deployment steps:
+
+1. Push all code to GitHub.
+2. Got to **Setting → Pages.**
+3. Select **main branch** and save
+4. Wait for the site to buid.
+
+---
 ### Credits
 
-- Any referances
-- Acknowledge that the game is inspired ny UNO (trademark note)
-
-
-
-
-
-# 🌐 Live Project Links
-
-🎨 Colour palette suggestion
-To match your game’s vibe:
-
-🔴 #e63946 (red)
-
-🔵 #457b9d (blue)
-
-🟢 #2a9d8f (green)
-
-🟡 #e9c46a (yellow)
-
-These are accessible, high‑contrast, and look great together.
+- All code written by me (Alison Mossop)
+- Game concept inspired by **UNO** 
 
