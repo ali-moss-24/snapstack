@@ -122,6 +122,15 @@ Rules Section
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.rules-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
 /* ----------------------------
 Responsive Layout
 ------------------------------ */
