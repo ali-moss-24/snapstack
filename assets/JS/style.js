@@ -97,7 +97,7 @@ function checkWin() {
 }
 
 
-// Draw A REAL CARD
+// DRAW A REAL CARD
 drawBtn.addEventListener("click", () => {
     if (deck.length === 0) {
         alert("Deck is empty");
@@ -110,6 +110,16 @@ drawBtn.addEventListener("click", () => {
     renderHand();
 
 });
+
+//RESET GAME BUTTON
+const resetBtn = document.getElementById("reset-btn");
+
+resetBtn.addEventListener("click", () => {
+    initGame();
+    playerHand = [];
+    renderHand();
+});
+
 
 // INITIAL SETUP
 
