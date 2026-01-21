@@ -87,7 +87,13 @@ function playCard(index) {
 
     updateTopCard();
     renderHand();
+    checkWin();
+}
 
+function checkWin() {
+    if (playerHand.length === 0) {
+        alert("Youwin! Your hand is empty!");
+    }
 }
 
 
