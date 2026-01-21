@@ -109,6 +109,23 @@ Draw button
     background: #1d3557;
 }
 
+.reset-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background 0.3s ease;
+}
+
+.reset-button:hover {
+    background: #b71c1c;
+}
+
 /* --------------------------------
 Rules Section
 -------------------------------- */
