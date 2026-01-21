@@ -1,6 +1,6 @@
 # SnapStack - Project Overview
 
-SnapStack is a fast‑paced, colour‑matching card game built with HTML, CSS, and JavaScript. Players draw and play cards to match the colour or number of the top card in the discard pile. The goal is to clear your hand by making smart matches and reacting quickly.
+SnapStack is a fast‑paced, colour‑matching card game built with HTML, CSS, and JavaScript. Players draw and play cards to match the colour or number of the top card in the discard pile. The goal is simple: clear your hand before the desk runs out.
 
 This project was created as part of the Code Institute’s Front-End Development curriculum.
 
@@ -14,6 +14,8 @@ This project was created as part of the Code Institute’s Front-End Development
 - Interactive UI with clickable cards
 - Responsive layout
 - Clear visual feedback for valid and invalid moves
+- Win conditions when the player's hand reaches zero
+- Reset button to restart the game instantly
 
 ---
 
@@ -27,17 +29,14 @@ This project was created as part of the Code Institute’s Front-End Development
 
 ### 🧩 How to play
 
-- You begin with an empty hand and one card on the discard pile.
-
+- You begin with one card on the discard pile and a empty hand..
 - Click **Draw Card** to add a card to your hand.
-
 - Click a card in your hand to play it.
-
-- You can only play a card if it matches the colour or number of the top discard card.
-
+- You may only play a card if it matches the **colour** or **number** of the top discard card.
 - Invalid moves triggers a notification.
-
 - Continue drawing and playing until your hand is empty - then you win.
+- Use **Rest Game** to start a new round at any time.
+
 
 ---
 
@@ -45,9 +44,23 @@ This project was created as part of the Code Institute’s Front-End Development
 
 **Manual Testing**
 
+- Page loads with no console errors
+- Draw button adds cards correctly
+- Invalid moves show an alert
+- Valid moves update the discard pile
+- Win conditions trigger when a hand is empty
+- Reset button restarts the game clearly
+- Layout remains responsive on mobile
+
+
 
 **Bugs & Fixes**
 
+- **Bug:** Reset button didn't clear the hand.  
+**Fix:** Added *playerHand = []* inside reset event listener
+
+- **Bug:** Invalid move alert triggered even when clicking a valid card.  
+**Fix:** Corrected matching logic in *playCard().
 
 **Validator Testing**
 
@@ -75,10 +88,11 @@ These colors offer strong contrast and clear visual grouping.
 
 **Design Rationale**
 
-- Large buttons and clear spacing improve accessibility.
-- Color-coded cards make gameplay intitive.
-- Layout proritises the discard pile and player hand for clarity.
-- Navigation is simple: Home → Play → Rules.
+- Large buttons and clear spacing improve accessibility
+- Color-coded cards make gameplay intitive
+- Layout proritises the discard pile and player hand
+- Navigation is simple: Home → Play → Rules
+- Clean, mimimal UI to keep focus on gameplay
 
 ---
 
