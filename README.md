@@ -36,6 +36,7 @@ As the owner, I want to ...
 - Showcase clean UI design and responsive layout.
 - Ensure tha game works reliably so users have a postive experience.
 
+---
 
 ### 🎮 Features 
 
@@ -47,6 +48,25 @@ As the owner, I want to ...
 - Clear visual feedback for valid and invalid moves
 - Win conditions when the player's hand reaches zero
 - Reset button to restart the game instantly
+
+---
+
+### 🚧 Features left to Implement
+
+- **Sound Effects:**   
+ Add audio feedback for dreawing cards, invalid moves, and winning the game.
+ - **Score Tracking:**  
+ Track how many rounds the player wins and display a running score.
+ - **Timer Mode:**  
+ Introduce a times challenge where players must clear thier hand before the timer runs out.
+ - **Animations:**  
+ Smooth animation for drawing and playing cards to enhance the visual experience.
+ - **Multiplayer Mode:**  
+ Allow two players to take turns using the same device or online.
+- **Card Draw Limit:**  
+Add an optional rule where the deck has a maximum number of draws.
+- **Difficulty Levels:**  
+Introduce different rule sets or deck variations for easy/medium/hard modes
 
 ---
 
