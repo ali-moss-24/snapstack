@@ -93,29 +93,42 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 
 ### 🧪 Testing
 
-**Manual Testing**
-
-- Page loads with no console errors
-- Draw button adds cards correctly
-- Invalid moves show an alert
-- Valid moves update the discard pile
-- Win conditions trigger when a hand is empty
-- Reset button restarts the game clearly
-- Layout remains responsive on mobile
 
 
+**Feature Testing**
+
+| Feature | Expected Result | Test Performed | Outcome |
+|--------|-----------------|----------------|---------|
+| Page loads | Game UI displays with no errors | Opened site in browser | Passed |
+| Draw Card button | Adds a card to the hand | Clicked Draw repeatedly | Passed |
+| Play card | Valid card plays onto discard pile | Clicked matching card | Passed |
+| Invalid move | Alert appears | Clicked non‑matching card | Passed |
+| Discard pile updates | Top card changes after play | Played multiple cards | Passed |
+| Win condition | Alert appears when hand is empty | Played until hand cleared | Passed |
+| Reset button | Game restarts, hand clears | Clicked Reset | Passed |
+| Navigation links | Scroll to correct section | Clicked Home / Play / Rules | Passed |
+| Responsive layout | Layout adjusts on mobile | Tested on phone + dev tools | Passed |
+
+**Brower Compatibility**
+
+The site was tested using Google Chrome.
+Additional browser enviroments and screen sizes were simulated using Chrome DevTools.
+No layout or functionality issues were observed during testing.
 
 **Bugs & Fixes**
 
 - **Bug:** Reset button didn't clear the hand.  
 **Fix:** Added *playerHand = []* inside reset event listener
 
+- **Bug:** Discard pile didn't update after playing a card.  
+**Fix:** Added *updateTopCard()* after pushing the payed card.
+
 - **Bug:** Invalid move alert triggered even when clicking a valid card.  
 **Fix:** Corrected matching logic in *playCard().
 
 **Validator Testing**
 
-- HTML validated with W£C
+- HTML validated with W3C
 - CSS validated with Jigsaw
 - JavaScript checked with linter
 
