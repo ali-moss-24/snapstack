@@ -6,6 +6,37 @@ This project was created as part of the Code Institute’s Front-End Development
 
 ---
 
+### ⭐ User Stories
+
+**New Visitor**
+
+As a new visitor, I want to ...
+- Understand the purpose of the game quickly so I know how to play.
+- Navigate easily between Home, Play and Rules so I can find what I need.
+- See clear instructions so I can start playing without confusion.
+
+**Returning Visitor Goals**
+
+As a returing visitor, I want to ...
+- Jump straight into the game so I can play again quickly.
+- Reset the game easily so i can start a new round.
+- Enjoy a smooth, responsive experience on any device.
+
+**Frequent Player Goals**
+
+As a frequent player, I want to ...
+- Have fast, intuitive controls so gameplay feels smooth.
+- Receive clear feedback when I make a valid or invald move.
+- Track my progress by clearing my hand and seeing the win message.
+
+**Site Owner Goals**
+
+As the owner, I want to ...
+- Provide a simple, fun card game that demonstrates my JavaScript skills.
+- Showcase clean UI design and responsive layout.
+- Ensure tha game works reliably so users have a postive experience.
+
+
 ### 🎮 Features 
 
 - Dynamic card deck generated with Javascript
