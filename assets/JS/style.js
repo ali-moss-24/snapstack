@@ -92,7 +92,7 @@ function playCard(index) {
 
 function checkWin() {
     if (playerHand.length === 0) {
-        alert("Youwin! Your hand is empty!");
+        alert("You win! Your hand is empty!");
     }
 }
 

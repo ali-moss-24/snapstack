@@ -7,14 +7,16 @@
 
   <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
+
 <body>
 
+  <!-- Navigation -->
   <nav class="navbar">
     <h1 class="logo">SnapStack</h1>
     <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#game">Play</a></li>
-        <li><a href="#rules">Rules</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#game">Play</a></li>
+      <li><a href="#rules">Rules</a></li>
   </ul>
 </nav>
 
@@ -23,7 +25,7 @@
 
     <section class="discard-section">
       <h2>Discard Pile</h2>
-      <div id="top-card" class="card-slot"></div>
+      <div id="top-card" class="card-slot" aria-live="polite"></div>
     </section>
 
 <section class="hand-section">
@@ -45,6 +47,7 @@
       <p>Match the color or number of the top discard card. Draw a card if you cannot play. </p>
     </section>
 
+    <!-- Script -->
 <script src="assets/JS/style.js"></script>
 
 </body>
