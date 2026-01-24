@@ -149,6 +149,9 @@ These colors offer strong contrast and clear visual grouping.
 
 **Wireframe**
 
+Te following wireframe was created to plan the layout and user flow of the SnapStack game interface. It outlines the key sections of the game: the discard pile, player hand, control buttons, and rules area.
+
+![Wireframe of SnapStack game layout](assets/images/SnapStack.png)
 
 **Design Rationale**
 
