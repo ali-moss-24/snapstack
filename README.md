@@ -167,6 +167,10 @@ The following wireframe was created to plan the layout and user flow of the Snap
 
 **Live Link:**
 
+[View Live Website](https://ali-moss-24.github.io/snapsnack/)
+
+
+
 **Repository:**
 
 Deployment steps:
