@@ -38,7 +38,7 @@ As a frequent player, I want to ...
 As the owner, I want to ...
 - Provide a simple, fun card game that demonstrates my JavaScript skills.
 - Showcase clean UI design and responsive layout.
-- Ensure tha game works reliably so users have a positive experience.
+- Ensure the game works reliably so users have a positive experience.
 
 ---
 
@@ -86,7 +86,7 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 
 ![Game screenshot - rules](assets/images/game-bottom.jpg)
 
-- You begin with one card on the discard pile and an empty hand..
+- You begin with one card on the discard pile and an empty hand.
 - Click **Draw Card** to add a card to your hand.
 - Click a card in your hand to play it.
 - You may only play a card if it matches the **colour** or **number** of the top discard card.
@@ -128,7 +128,7 @@ No layout or functionality issues were observed during testing.
 **Fix:** Added *updateTopCard()* after pushing the played card.
 
 - **Bug:** Invalid move alert triggered even when clicking a valid card.  
-**Fix:** Corrected matching logic in *playCard().
+**Fix:** Corrected matching logic in *playCard().*
 
 **Validator Testing**
 
@@ -155,7 +155,7 @@ These colors offer strong contrast and clear visual grouping.
 
 The following wireframe was created to plan the layout and user flow of the SnapStack game interface. It outlines the key sections of the game: the discard pile, player hand, control buttons, and rules area.
 
-- Discard plie at the top
+- Discard pile at the top
 - Player hand in the centre
 - Draw and reset buttons grouped together
 - Rules section at the bottom
