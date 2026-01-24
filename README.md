@@ -4,6 +4,8 @@ SnapStack is a fast‑paced, colour‑matching card game built with HTML, CSS, a
 
 This project was created as part of the Code Institute’s Front-End Development curriculum.
 
+Below is the main game interface showing the discard pile, player hand, and controls:
+
 ![Game screenshot - discard pile and player-hand](assets/images/game-top.jpg)
 
 
@@ -135,6 +137,10 @@ No layout or functionality issues were observed during testing.
 - HTML validated with W3C
 - CSS validated with Jigsaw
 - JavaScript checked with linter
+
+
+All core features performed as expected across devices and browers. No bugs were found during testing, and the game behaves reliably under normal use.
+
 
 ---
 
