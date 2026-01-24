@@ -105,6 +105,10 @@ Draw button
     cursor: pointer;
 }
 
+.draw-button:hover {
+    background: #16324f;
+}
+
 
 .reset-button {
     padding: 12px 25px;
