@@ -93,8 +93,6 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 
 ### 🧪 Testing
 
-
-
 **Feature Testing**
 
 | Feature | Expected Result | Test Performed | Outcome |
