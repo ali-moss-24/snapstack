@@ -1,6 +1,6 @@
 # SnapStack - Project Overview
 
-SnapStack is a fast‑paced, colour‑matching card game built with HTML, CSS, and JavaScript. Players draw and play cards to match the colour or number of the top card in the discard pile. The goal is simple: clear your hand before the desk runs out.
+SnapStack is a fast‑paced, colour‑matching card game built with HTML, CSS, and JavaScript. Players draw and play cards to match the colour or number of the top card in the discard pile. The goal is simple: clear your hand before the deck runs out.
 
 This project was created as part of the Code Institute’s Front-End Development curriculum.
 
@@ -17,16 +17,16 @@ As a new visitor, I want to ...
 
 **Returning Visitor Goals**
 
-As a returing visitor, I want to ...
+As a returning visitor, I want to ...
 - Jump straight into the game so I can play again quickly.
-- Reset the game easily so i can start a new round.
+- Reset the game easily so I can start a new round.
 - Enjoy a smooth, responsive experience on any device.
 
 **Frequent Player Goals**
 
 As a frequent player, I want to ...
 - Have fast, intuitive controls so gameplay feels smooth.
-- Receive clear feedback when I make a valid or invald move.
+- Receive clear feedback when I make a valid or invalid move.
 - Track my progress by clearing my hand and seeing the win message.
 
 **Site Owner Goals**
@@ -34,7 +34,7 @@ As a frequent player, I want to ...
 As the owner, I want to ...
 - Provide a simple, fun card game that demonstrates my JavaScript skills.
 - Showcase clean UI design and responsive layout.
-- Ensure tha game works reliably so users have a postive experience.
+- Ensure tha game works reliably so users have a positive experience.
 
 ---
 
@@ -54,11 +54,11 @@ As the owner, I want to ...
 ### 🚧 Features left to Implement
 
 - **Sound Effects:**   
- Add audio feedback for dreawing cards, invalid moves, and winning the game.
+ Add audio feedback for drawing cards, invalid moves, and winning the game.
  - **Score Tracking:**  
  Track how many rounds the player wins and display a running score.
  - **Timer Mode:**  
- Introduce a times challenge where players must clear thier hand before the timer runs out.
+ Introduce a timed challenge where players must clear their hand before the timer runs out.
  - **Animations:**  
  Smooth animation for drawing and playing cards to enhance the visual experience.
  - **Multiplayer Mode:**  
@@ -80,13 +80,13 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 
 ### 🧩 How to play
 
-- You begin with one card on the discard pile and a empty hand..
+- You begin with one card on the discard pile and an empty hand..
 - Click **Draw Card** to add a card to your hand.
 - Click a card in your hand to play it.
 - You may only play a card if it matches the **colour** or **number** of the top discard card.
-- Invalid moves triggers a notification.
+- Invalid moves trigger a notification.
 - Continue drawing and playing until your hand is empty - then you win.
-- Use **Rest Game** to start a new round at any time.
+- Use **Reset Game** to start a new round at any time.
 
 
 ---
@@ -109,10 +109,10 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 | Navigation links | Scroll to correct section | Clicked Home / Play / Rules | Passed |
 | Responsive layout | Layout adjusts on mobile | Tested on phone + dev tools | Passed |
 
-**Brower Compatibility**
+**Browser Compatibility**
 
 The site was tested using Google Chrome.
-Additional browser enviroments and screen sizes were simulated using Chrome DevTools.
+Additional browser environments and screen sizes were simulated using Chrome DevTools.
 No layout or functionality issues were observed during testing.
 
 **Bugs & Fixes**
@@ -121,7 +121,7 @@ No layout or functionality issues were observed during testing.
 **Fix:** Added *playerHand = []* inside reset event listener
 
 - **Bug:** Discard pile didn't update after playing a card.  
-**Fix:** Added *updateTopCard()* after pushing the payed card.
+**Fix:** Added *updateTopCard()* after pushing the played card.
 
 - **Bug:** Invalid move alert triggered even when clicking a valid card.  
 **Fix:** Corrected matching logic in *playCard().
@@ -138,7 +138,7 @@ No layout or functionality issues were observed during testing.
 
 **Color Palette**
 
-To create a bright, accessible game enviroment
+To create a bright, accessible game environment
 
 - 🔴 #e63946 (red)
 - 🔵 #457b9d (blue)
@@ -149,17 +149,17 @@ These colors offer strong contrast and clear visual grouping.
 
 **Wireframe**
 
-Te following wireframe was created to plan the layout and user flow of the SnapStack game interface. It outlines the key sections of the game: the discard pile, player hand, control buttons, and rules area.
+The following wireframe was created to plan the layout and user flow of the SnapStack game interface. It outlines the key sections of the game: the discard pile, player hand, control buttons, and rules area.
 
 ![Wireframe of SnapStack game layout](assets/images/SnapStack.png)
 
 **Design Rationale**
 
 - Large buttons and clear spacing improve accessibility
-- Color-coded cards make gameplay intitive
-- Layout proritises the discard pile and player hand
+- Color-coded cards make gameplay intuitive
+- Layout prioritises the discard pile and player hand
 - Navigation is simple: Home → Play → Rules
-- Clean, mimimal UI to keep focus on gameplay
+- Clean, minimal UI to keep focus on gameplay
 
 ---
 
@@ -172,9 +172,9 @@ Te following wireframe was created to plan the layout and user flow of the SnapS
 Deployment steps:
 
 1. Push all code to GitHub.
-2. Got to **Setting → Pages.**
+2. Go to **Setting → Pages.**
 3. Select **main branch** and save
-4. Wait for the site to buid.
+4. Wait for the site to build.
 
 ---
 ### Credits
