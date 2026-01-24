@@ -224,5 +224,3 @@ Deployment steps:
 - All code written by me (Alison Mossop)
 - Game concept inspired by **UNO** 
 - Troubleshooting advice gained from Microsoft Copilot
-
-
