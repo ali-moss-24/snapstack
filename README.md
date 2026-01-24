@@ -138,6 +138,23 @@ No layout or functionality issues were observed during testing.
 - CSS validated with Jigsaw
 - JavaScript checked with linter
 
+** Lighthouse Testing **
+
+Lighthouse audits were run on the deployment site using Google Chrome DevTools to access performance, accessibility, best practises, and SEO.
+
+- Performance: 100
+- Accessibility: 95
+- Best Practices: 100
+- SEO: 90
+
+These scores show that the site loads efficiently, follows modern development standards, and is fully accessible and discoverable by search engines. Minor accessibilty suggestions were flagged, but no critical issues were found.
+
+Below is the Lighthouse report summary:
+
+![Lighthouse report summary](assets/images/lighthouse.jpg)
+
+**Testing Summary**
+
 
 All core features performed as expected across devices and browsers. No bugs were found during testing, and the game behaves reliably under normal use.
 
