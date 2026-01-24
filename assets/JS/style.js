@@ -130,6 +130,7 @@ function initGame() {
     shuffleDeck(deck);
 
     // Start discard pile with one card
+    discardPile = []
     discardPile.push(deck.pop());
     updateTopCard();
 }
