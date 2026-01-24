@@ -135,8 +135,12 @@ No layout or functionality issues were observed during testing.
 **Validator Testing**
 
 - HTML validated with W3C
+![CSS validation result](assets/images/html-validation.jpg)
 - CSS validated with Jigsaw
-- JavaScript checked with linter
+![CSS validation result](assets/images/css-validation.jpg)
+
+
+
 
 **Lighthouse Testing**
 
