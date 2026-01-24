@@ -138,9 +138,9 @@ No layout or functionality issues were observed during testing.
 - CSS validated with Jigsaw
 - JavaScript checked with linter
 
-** Lighthouse Testing **
+**Lighthouse Testing**
 
-Lighthouse audits were run on the deployment site using Google Chrome DevTools to access performance, accessibility, best practises, and SEO.
+Lighthouse audits were run on the deployment site using Google Chrome DevTools to assess performance, accessibility, best practises, and SEO.
 
 - Performance: 100
 - Accessibility: 95
@@ -204,6 +204,8 @@ The following wireframe was created to plan the layout and user flow of the Snap
 
 
 **Repository:**
+
+[View Repository](https://github.com/ali-moss-24/snapsnack)
 
 Deployment steps:
 
