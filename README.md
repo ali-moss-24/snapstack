@@ -176,7 +176,7 @@ These colors offer strong contrast and clear visual grouping.
 
 **Wireframe**
 
-The following wireframe was created to plan the layout and user flow of the SnapStack game interface. It outlines the key sections of the game: the discard pile, player hand, control buttons, and rules area.
+The following wireframe was created by me using Figma to plan the layout and user flow of the SnapStack game interface. It outlines the key sections of the game: the discard pile, player hand, control buttons, and rules area.
 
 - Discard pile at the top
 - Player hand in the centre
@@ -219,4 +219,6 @@ Deployment steps:
 
 - All code written by me (Alison Mossop)
 - Game concept inspired by **UNO** 
+- Troubleshooting advice gained from Microsoft Copilot
+
 
