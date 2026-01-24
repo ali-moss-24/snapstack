@@ -46,7 +46,7 @@ As the owner, I want to ...
 
 ### 🎮 Features 
 
-- Dynamic card deck generated with Javascript
+- Dynamic card deck generated with JavaScript
 - Shuffle, draw and play mechanics
 - Color and number matching rules
 - Interactive UI with clickable cards
@@ -80,7 +80,7 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 
 ---
 
@@ -130,7 +130,7 @@ No layout or functionality issues were observed during testing.
 **Fix:** Added *updateTopCard()* after pushing the played card.
 
 - **Bug:** Invalid move alert triggered even when clicking a valid card.  
-**Fix:** Corrected matching logic in *playCard().*
+**Fix:** Corrected matching logic in *playCard()*.
 
 **Validator Testing**
 
@@ -139,7 +139,7 @@ No layout or functionality issues were observed during testing.
 - JavaScript checked with linter
 
 
-All core features performed as expected across devices and browers. No bugs were found during testing, and the game behaves reliably under normal use.
+All core features performed as expected across devices and browsers. No bugs were found during testing, and the game behaves reliably under normal use.
 
 
 ---
@@ -191,7 +191,7 @@ The following wireframe was created to plan the layout and user flow of the Snap
 Deployment steps:
 
 1. Push all code to GitHub.
-2. Go to **Setting → Pages.**
+2. Go to **Settings → Pages.**
 3. Select **main branch** and save
 4. Wait for the site to build.
 
