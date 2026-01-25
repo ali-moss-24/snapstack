@@ -103,10 +103,13 @@ Draw button
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 .draw-button:hover {
-    background: #16324f;
+    background: #274c77;
+
+
 }
 
 
