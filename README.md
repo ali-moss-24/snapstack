@@ -179,6 +179,37 @@ All core features worked smoothly across devices andd browsers. No blocking issu
 
 ### 🎨 UX & Design
 
+**UX Overview**
+
+SnapStack was designed to feel simple, welcoming, and easy to use from the moment a player lands on the page. The interface avoids clutter band keeps the focus on the cards and the main controls, so players can understand how to play without needing instructions first. Everything is laid out clearly, with the most elements placed where the eye naturally goes, creating a smooth and enjoyable experience for new and returning players.
+
+**Accessibility Considerations**
+
+
+Accessibility was considered from the begining to make sure the gae is clear, readable, and comfortable for anyone who wants to play. The following choices were made to support a wide range of players and devices:
+
+- High-contrast colors so card values and buttons are easy to see
+- Large, clearly labelled buttons that work well on both desktop and mobile
+- Alt text on all images
+- Html arranged clearly so assistive tools can read it properly
+- Keyboard friendly controls that adapts smoothly to different screen sizes
+- Clear feedback messages for invalid moves
+
+These decisions help ensure the game remains accessible and easy to understand, and enjouable to interact with.
+
+**Navigation & Layout Decisions**
+
+Even though SnapStack is a single player game, navigation still plays an important role in guiding the user:
+
+- The **Home**, **Play**, and **Rules** links let the user jump straight to what they need.
+- The **discard pile** sits at the top of the screen, making it the first thing players see.
+- The **player hand** is centred so it's always easy to reach and interact with.
+- The **Draw** and **Reset** buttons are grouped together to keep actions predictable.
+- The **Rules* section is placed at the bottom, following a natural flow for new players.
+
+This structure keeps the experience intuitive and prevents users from feeling lost and overwhelmed.
+
+
 **Color Palette**
 
 To create a bright, accessible game environment
@@ -203,11 +234,11 @@ The following wireframe was created by me using Figma to plan the layout and use
 
 **Design Rationale**
 
-- Large buttons and clear spacing improve accessibility
-- Color-coded cards make gameplay intuitive
-- Layout prioritises the discard pile and player hand
-- Navigation is simple: Home → Play → Rules
-- Clean, minimal UI to keep focus on gameplay
+- Large buttons and generous spacing reduce mis-clicks and improve usablility on touch devices.
+- Color-coded cards make the matching rules instantly clear without needing to read text.
+- A clean, mimimal interface keeps the focus on gameplay rather than decoration
+- The layout mirrors familiar card-game setups, helping players i=understand the flow quickly.
+- Consistent styling across all elements creates a polished, cohesive experience.
 
 ---
 
