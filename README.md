@@ -55,6 +55,18 @@ As the owner, I want to ...
 - Win conditions when the player's hand reaches zero
 - Reset button to restart the game instantly
 
+
+### ⭐ Addition Features
+
+**Custom 404 Page**
+
+A themed 404.html file has been added to handle invalid or broken URLs. The design matches the SnapStack color palette and includes a playful "wrong card" message, along with a clear button that returns users to the main game. This provides a more ploished and user-freindly experience when navigating to non-existent routes.
+
+![404](assets/images/404.jpg)
+
+
+[Live 404 page](https://ali-moss-24.github.io/snapstack/thispagedoesnotexist)
+
 ---
 
 ### 🚧 Features left to Implement
@@ -217,6 +229,10 @@ Deployment steps:
 2. Go to **Settings → Pages.**
 3. Select **main branch** and save
 4. Wait for the site to build.
+
+**404 page**
+
+A custom 404.html file is included in the root directory of the project. GitHub Pages automatically serves this file whenever a user visits a route that does not exist. The page is styled to match the SnapStack theme and includes a direct link to the homepage.
 
 ---
 ### Credits
