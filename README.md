@@ -179,16 +179,18 @@ All the bugs found during development were fixedf, and retesting showed that eve
 
 
 
-**Lighthouse Testing**
+- Lighthouse used to access performance, accessibility, best practices, and SEO
 
-Lighthouse audits were run on the deployment site using Google Chrome DevTools to assess performance, accessibility, best practises, and SEO.
+**Lighthouse Results**
+
+Lighthouse audits were run on the deployment site to check performance, accessibilty, best practises, and SEO.
 
 - Performance: 100
 - Accessibility: 95
 - Best Practices: 100
 - SEO: 90
 
-These scores show that the site loads efficiently, follows modern development standards, and is fully accessible and discoverable by search engines. Minor accessibilty suggestions were flagged, but no critical issues were found.
+These results show that the site loads quickly, follows modern standards, and is easy to use. A few minor accessibility suggestions were flagged, but nothing that would affect gameplay or usability.
 
 Below is the Lighthouse report summary:
 
