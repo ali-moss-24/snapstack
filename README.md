@@ -113,6 +113,21 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 
 ### 🧪 Testing
 
+**Testing Strategy**
+
+Testing was carried out throughout the entire development process rather than left until the end. Each feature was teasted as soon as it was implemented, and retested after styling changes or code updates. Once the project was deployed to GitHub, all tests were repeated to ensure the live version bejaved exactly the same as the development version. This approach helped catch issues early and ensured a smooth final experience.
+
+**Automated vs Manual Testing**
+
+Both automated and manual testing were used during development:
+
+- **Manual testing** involved interacting with the game directly to check gameplay behaviour, button functionality, layout, and responsiveness. This includes trying valid and invalid moves, resetting the game, and testing navigation links.
+- **Automated testing** was carried out using online tools such as W3C HTML Validator, CSS Jigsaw Validator, and Lighthouse. These tools automatically checked the code for errors, accessibil;ity issues, performance, and best practices.
+
+Using both methods ensured the game worked correctly from a user's perspective while also meeting technical standards for accessibility and perforamance.
+
+
+
 **Feature Testing**
 
 | Feature | Expected Result | Test Performed | Outcome |
