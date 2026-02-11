@@ -60,7 +60,7 @@ As the owner, I want to ...
 
 **Custom 404 Page**
 
-A themed 404.html file has been added to handle invalid or broken URLs. The design matches the SnapStack color palette and includes a playful "wrong card" message, along with a clear button that returns users to the main game. This provides a more ploished and user-freindly experience when navigating to non-existent routes.
+A themed 404.html file has been added to handle invalid or broken URLs. The design matches the SnapStack color palette and includes a playful "wrong card" message, along with a clear button that returns users to the main game. This provides a more polished and user-friendly experience when navigating to non-existent routes.
 
 ![404](assets/images/404.jpg)
 
@@ -115,16 +115,16 @@ Introduce different rule sets or deck variations for easy/medium/hard modes
 
 **Testing Strategy**
 
-Testing was carried out throughout the entire development process rather than left until the end. Each feature was teasted as soon as it was implemented, and retested after styling changes or code updates. Once the project was deployed to GitHub, all tests were repeated to ensure the live version bejaved exactly the same as the development version. This approach helped catch issues early and ensured a smooth final experience.
+Testing was carried out throughout the entire development process rather than left until the end. Each feature was tested as soon as it was implemented, and retested after styling changes or code updates. Once the project was deployed to GitHub, all tests were repeated to ensure the live version behaved exactly the same as the development version. This approach helped catch issues early and ensured a smooth final experience.
 
 **Automated vs Manual Testing**
 
 Both automated and manual testing were used during development:
 
 - **Manual testing** involved interacting with the game directly to check gameplay behaviour, button functionality, layout, and responsiveness. This includes trying valid and invalid moves, resetting the game, and testing navigation links.
-- **Automated testing** was carried out using online tools such as W3C HTML Validator, CSS Jigsaw Validator, and Lighthouse. These tools automatically checked the code for errors, accessibil;ity issues, performance, and best practices.
+- **Automated testing** was carried out using online tools such as W3C HTML Validator, CSS Jigsaw Validator, and Lighthouse. These tools automatically checked the code for errors, accessibility issues, performance, and best practices.
 
-Using both methods ensured the game worked correctly from a user's perspective while also meeting technical standards for accessibility and perforamance.
+Using both methods ensured the game worked correctly from a user's perspective while also meeting technical standards for accessibility and performance.
 
 **Testing Procudures**
 
@@ -146,7 +146,7 @@ The game was tested on desktop and mobile to make sure everything worked properl
 
 **Screenshots Aligned to User Stories**
 
-Screenshots in the README help to show how the final game matches the user stories - things like understanding the layout, checking the rules, and using the main controls. They give a clear picture of how the game works in practise and show that the design decisions made during planning were carried through to the finished version
+Screenshots in the README help to show how the final game matches the user stories - things like understanding the layout, checking the rules, and using the main controls. They give a clear picture of how the game works in practice and show that the design decisions made during planning were carried through to the finished version
 
 **Browser Compatibility**
 
@@ -167,7 +167,7 @@ No layout or functionality issues were observed during testing.
 
 **Bug Evaluation**
 
-All the bugs found during development were fixedf, and retesting showed that everything worked prperly across different devices. There are no major issues left. Any small things that are still missing - like sound effects or animations - are planned as future improvements rather than problems with the game.
+All the bugs found during development were fixed, and retesting showed that everything worked properly across different devices. There are no major issues left. Any small things that are still missing - like sound effects or animations - are planned as future improvements rather than problems with the game.
 
 **Validator Testing**
 
@@ -179,11 +179,11 @@ All the bugs found during development were fixedf, and retesting showed that eve
 
 
 
-- Lighthouse used to access performance, accessibility, best practices, and SEO
+- Lighthouse used to assess performance, accessibility, best practices, and SEO
 
 **Lighthouse Results**
 
-Lighthouse audits were run on the deployment site to check performance, accessibilty, best practises, and SEO.
+Lighthouse audits were run on the deployment site to check performance, accessibility, best practices, and SEO.
 
 - Performance: 100
 - Accessibility: 95
@@ -199,7 +199,7 @@ Below is the Lighthouse report summary:
 **Testing Summary**
 
 
-All core features worked smoothly across devices andd browsers. No blocking issues were found, and the game performed reliably throughout testing.
+All core features worked smoothly across devices and browsers. No blocking issues were found, and the game performed reliably throughout testing.
 
 
 ---
@@ -208,21 +208,21 @@ All core features worked smoothly across devices andd browsers. No blocking issu
 
 **UX Overview**
 
-SnapStack was designed to feel simple, welcoming, and easy to use from the moment a player lands on the page. The interface avoids clutter band keeps the focus on the cards and the main controls, so players can understand how to play without needing instructions first. Everything is laid out clearly, with the most elements placed where the eye naturally goes, creating a smooth and enjoyable experience for new and returning players.
+SnapStack was designed to feel simple, welcoming, and easy to use from the moment a player lands on the page. The interface avoids clutter and keeps the focus on the cards and the main controls, so players can understand how to play without needing instructions first. Everything is laid out clearly, with the most important elements placed where the eye naturally goes, creating a smooth and enjoyable experience for new and returning players.
 
 **Accessibility Considerations**
 
 
-Accessibility was considered from the begining to make sure the gae is clear, readable, and comfortable for anyone who wants to play. The following choices were made to support a wide range of players and devices:
+Accessibility was considered from the beginning to make sure the game is clear, readable, and comfortable for anyone who wants to play. The following choices were made to support a wide range of players and devices:
 
 - High-contrast colors so card values and buttons are easy to see
 - Large, clearly labelled buttons that work well on both desktop and mobile
 - Alt text on all images
-- Html arranged clearly so assistive tools can read it properly
+- HTML arranged clearly so assistive tools can read it properly
 - Keyboard friendly controls that adapts smoothly to different screen sizes
 - Clear feedback messages for invalid moves
 
-These decisions help ensure the game remains accessible and easy to understand, and enjouable to interact with.
+These decisions help ensure the game remains accessible and easy to understand, and enjoyable to interact with.
 
 **Navigation & Layout Decisions**
 
@@ -232,9 +232,9 @@ Even though SnapStack is a single player game, navigation still plays an importa
 - The **discard pile** sits at the top of the screen, making it the first thing players see.
 - The **player hand** is centred so it's always easy to reach and interact with.
 - The **Draw** and **Reset** buttons are grouped together to keep actions predictable.
-- The **Rules* section is placed at the bottom, following a natural flow for new players.
+- The **Rules** section is placed at the bottom, following a natural flow for new players.
 
-This structure keeps the experience intuitive and prevents users from feeling lost and overwhelmed.
+This structure keeps the experience intuitive and prevents users from feeling lost or overwhelmed.
 
 
 **Color Palette**
@@ -261,10 +261,10 @@ The following wireframe was created by me using Figma to plan the layout and use
 
 **Design Rationale**
 
-- Large buttons and generous spacing reduce mis-clicks and improve usablility on touch devices.
+- Large buttons and generous spacing reduce mis-clicks and improve usability on touch devices.
 - Color-coded cards make the matching rules instantly clear without needing to read text.
-- A clean, mimimal interface keeps the focus on gameplay rather than decoration
-- The layout mirrors familiar card-game setups, helping players i=understand the flow quickly.
+- A clean, minimal interface keeps the focus on gameplay rather than decoration
+- The layout mirrors familiar card-game setups, helping players understand the flow quickly.
 - Consistent styling across all elements creates a polished, cohesive experience.
 
 ---
@@ -291,6 +291,10 @@ Deployment steps:
 **404 page**
 
 A custom 404.html file is included in the root directory of the project. GitHub Pages automatically serves this file whenever a user visits a route that does not exist. The page is styled to match the SnapStack theme and includes a direct link to the homepage.
+
+**Reflection**
+
+Working on SnapStack really helped me grow my JavaScript confidence, especially with things like events handling, updating the DOM, and figuring out bugs as they appeard. I also learned how valuable it is to test features as I go, rather than waiting till the end - it made the whole process much smoother. Dedigning the layout and color scheme showed me how much small UI choices can change the feel of a game. Deploying to GitHub Pages also taught me how the live version can behave slightly different from the local one, and how important it is to check everything again after publishing. Overall, this project helped me build both my technical skills and my design instincts, and I'm proud of how it all came together.
 
 ---
 ### Credits
