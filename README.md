@@ -126,7 +126,7 @@ Both automated and manual testing were used during development:
 
 Using both methods ensured the game worked correctly from a user's perspective while also meeting technical standards for accessibility and performance.
 
-**Testing Procudures**
+**Testing Procedures**
 
 The game was tested on desktop and mobile to make sure everything worked properly. Each feature was checked on its own and then tested again together. Once the site was live, all tests were repeated to make sure nothing broke during deployment.
 
@@ -146,7 +146,7 @@ The game was tested on desktop and mobile to make sure everything worked properl
 
 **Screenshots Aligned to User Stories**
 
-Screenshots in the README help to show how the final game matches the user stories - things like understanding the layout, checking the rules, and using the main controls. They give a clear picture of how the game works in practice and show that the design decisions made during planning were carried through to the finished version
+Screenshots in the README help to show how the final game matches the user stories - things like understanding the layout, checking the rules, and using the main controls. They give a clear picture of how the game works in practice and show that the design decisions made during planning were carried through to the finished version.
 
 **Browser Compatibility**
 
