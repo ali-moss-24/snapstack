@@ -294,7 +294,7 @@ A custom 404.html file is included in the root directory of the project. GitHub 
 
 **Reflection**
 
-Working on SnapStack really helped me grow my JavaScript confidence, especially with things like events handling, updating the DOM, and figuring out bugs as they appeard. I also learned how valuable it is to test features as I go, rather than waiting till the end - it made the whole process much smoother. Dedigning the layout and color scheme showed me how much small UI choices can change the feel of a game. Deploying to GitHub Pages also taught me how the live version can behave slightly different from the local one, and how important it is to check everything again after publishing. Overall, this project helped me build both my technical skills and my design instincts, and I'm proud of how it all came together.
+Working on SnapStack really helped me grow my JavaScript confidence, especially with things like event handling, updating the DOM, and figuring out bugs as they appeared. I also learned how valuable it is to test features as I go, rather than waiting till the end - it made the whole process much smoother. Designing the layout and color scheme showed me how much small UI choices can change the feel of a game. Deploying to GitHub Pages also taught me how the live version can behave slightly differently from the local one, and how important it is to check everything again after publishing. Overall, this project helped me build both my technical skills and my design instincts, and I'm proud of how it all came together.
 
 ---
 ### Credits
