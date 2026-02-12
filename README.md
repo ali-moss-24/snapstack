@@ -199,7 +199,7 @@ Below is the Lighthouse report summary:
 **Testing Summary**
 
 
-All core features worked smoothly across devices and browsers. No blocking issues were found, and the game performed reliably throughout testing.
+All core features worked smoothly across devices and browsers. No blocking issues were found, and the game performed reliably throughout testing. The combination of manual testing, validator tools, and Lighthouse audits confirmed that the final version works reliably and as intended.
 
 
 ---
