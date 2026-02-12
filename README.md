@@ -219,7 +219,7 @@ Accessibility was considered from the beginning to make sure the game is clear, 
 - Large, clearly labelled buttons that work well on both desktop and mobile
 - Alt text on all images
 - HTML arranged clearly so assistive tools can read it properly
-- Keyboard friendly controls that adapts smoothly to different screen sizes
+- Keyboard-friendly controls that adapts smoothly to different screen sizes
 - Clear feedback messages for invalid moves
 
 These decisions help ensure the game remains accessible and easy to understand, and enjoyable to interact with.
@@ -263,7 +263,7 @@ The following wireframe was created by me using Figma to plan the layout and use
 
 - Large buttons and generous spacing reduce mis-clicks and improve usability on touch devices.
 - Color-coded cards make the matching rules instantly clear without needing to read text.
-- A clean, minimal interface keeps the focus on gameplay rather than decoration
+- A clean, minimal interface keeps the focus on gameplay rather than decoration.
 - The layout mirrors familiar card-game setups, helping players understand the flow quickly.
 - Consistent styling across all elements creates a polished, cohesive experience.
 
@@ -294,7 +294,7 @@ A custom 404.html file is included in the root directory of the project. GitHub 
 
 **Reflection**
 
-Working on SnapStack really helped me grow my JavaScript confidence, especially with things like event handling, updating the DOM, and figuring out bugs as they appeared. I also learned how valuable it is to test features as I go, rather than waiting till the end - it made the whole process much smoother. Designing the layout and color scheme showed me how much small UI choices can change the feel of a game. Deploying to GitHub Pages also taught me how the live version can behave slightly differently from the local one, and how important it is to check everything again after publishing. Overall, this project helped me build both my technical skills and my design instincts, and I'm proud of how it all came together.
+Working on SnapStack really helped me grow my JavaScript confidence, especially with things like event handling, updating the DOM, and figuring out bugs as they appeared. I also learned how valuable it is to test features as I go, rather than waiting till the end, it made the whole process much smoother. Designing the layout and color scheme showed me how much small UI choices can change the feel of a game. Deploying to GitHub Pages also taught me how the live version can behave slightly differently from the local one, and how important it is to check everything again after publishing. Overall, this project helped me build both my technical skills and my design instincts, and I'm proud of how it all came together.
 
 ---
 ### Credits
