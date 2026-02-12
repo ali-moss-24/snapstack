@@ -208,7 +208,7 @@ All core features worked smoothly across devices and browsers. No blocking issue
 
 **UX Overview**
 
-SnapStack was designed to feel simple, welcoming, and easy to use from the moment a player lands on the page. The interface avoids clutter and keeps the focus on the cards and the main controls, so players can understand how to play without needing instructions first. Everything is laid out clearly, with the most important elements placed where the eye naturally goes, creating a smooth and enjoyable experience for new and returning players.
+SnapStack was designed to feel simple, welcoming, and easy to use from the moment a player lands on the page. The interface avoids clutter and keeps the focus on the cards and the main controls, so players can understand how to play without needing instructions first. Everything is laid out clearly, with the most important elements placed where the eye naturally goes, creating a smooth and enjoyable experience for new and returning players. These choices were made to keep the experience simple, intuitive, and enjoyable for players of all experience levels.
 
 **Accessibility Considerations**
 
@@ -287,6 +287,8 @@ Deployment steps:
 2. Go to **Settings → Pages.**
 3. Select **main branch** and save
 4. Wait for the site to build.
+
+The deployment process was repeated after major updates to ensure the live version always matched the development version.
 
 **404 page**
 
