@@ -1,4 +1,4 @@
-# SnapStack - Project Overview
+# SnapStack
 
 SnapStack is a fast‑paced, colour‑matching card game built with HTML, CSS, and JavaScript. Players draw and play cards to match the colour or number of the top card in the discard pile. The goal is simple: clear your hand before the deck runs out.
 
@@ -11,14 +11,17 @@ Below is the main game interface showing the discard pile, player hand, and cont
 ---
 # 🧭 Table of contents
 
+Use the table of contents below to navigate through the project documentation
+
 - [User Stories](#user-stories)
 - [Features](#features)
-- [Addtional Features](#features-left-to-implement)
+- [Addtional Features](#additional-features)
+- [Features Left To Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
 - [How to Play](#how-to-play)
 - [Testing](#testing)
 - [UX & Design](#ux-&-design)
-- [Deploymewnt](#deployment)
+- [Deployment](#deployment)
 - [Reflection](#reflection)
 - [Credits](#credits)
 
@@ -69,7 +72,7 @@ As the owner, I want to ...
 - Reset button to restart the game instantly
 
 
-### ⭐ Addition Features
+### ⭐ Additional Features
 
 **Custom 404 Page**
 
