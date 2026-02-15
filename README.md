@@ -15,7 +15,7 @@ Use the table of contents below to navigate through the project documentation
 
 - [User Stories](#user-stories)
 - [Features](#features)
-- [Addtional Features](#additional-features)
+- [Additional Features](#additional-features)
 - [Features Left To Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
 - [How to Play](#how-to-play)
