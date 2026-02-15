@@ -8,6 +8,19 @@ Below is the main game interface showing the discard pile, player hand, and cont
 
 ![Game screenshot - discard pile and player-hand](assets/images/game-top.jpg)
 
+---
+# 🧭 Table of contents
+
+- [User Stories](#user-stories)
+- [Features](#features)
+- [Addtional Features](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [How to Play](#how-to-play)
+- [Testing](#testing)
+- [UX & Design](#ux-&-design)
+- [Deploymewnt](#deployment)
+- [Reflection](#reflection)
+- [Credits](#credits)
 
 
 ---
